@@ -9,8 +9,8 @@ public class DbFunc {
 	private String database;
 	private String userName;
 	private String password;
-	
-	
+
+
 	public DbFunc() {
 	}
 
@@ -20,32 +20,32 @@ public class DbFunc {
 		this.userName = userName;
 		this.password = password;
 	}
-	
+
 	public Connection getConnection() {
-		
+
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/", getUserName(), getPassword());		
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost?useAffectedRows=true", getUserName(), getPassword());
 			return conn;
-			
+
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return null;
 	}
-				
+
 	public Connection getConnectionBySchema() {
-		
+
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:mysql://" + getServer() + "/" + getDatabase(), getUserName(), getPassword());		
+			Connection conn = DriverManager.getConnection("jdbc:mysql://" + getServer() + "/" + getDatabase() +"?useAffectedRows=true", getUserName(), getPassword());
 			return conn;
-			
+
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return null;
 	}
 
