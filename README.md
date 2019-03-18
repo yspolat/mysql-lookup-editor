@@ -11,3 +11,9 @@ Java Swing
 -	Users are able to list tables of the database connected.
 -	Users are able to run a certain selection of the query text.
 -	User interface (UI) is flexible, nice looking and provides all functions above.
+
+![alt text](https://github.com/yspolat/mysql-lookup-editor/blob/master/images/1.png?raw=true)
+![alt text](https://github.com/yspolat/mysql-lookup-editor/blob/master/images/2.png?raw=true)
+![alt text](https://github.com/yspolat/mysql-lookup-editor/blob/master/images/3.png?raw=true)
+![alt text](https://github.com/yspolat/mysql-lookup-editor/blob/master/images/4.png?raw=true)
+![alt text](https://github.com/yspolat/mysql-lookup-editor/blob/master/images/5.png?raw=true)
