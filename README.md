@@ -4,7 +4,6 @@ MySQL Lookup Editor
 Developed with Java Swing, it's light-weight and useful GUI for MySQL.
 
 # Features
--	You can
   - connect any MySQL Server with credentials.
   - view schemas in MySQL database.
   -	run CRUD operations (Select, Insert, Update and Delete).
