@@ -20,3 +20,6 @@ Developed with Java Swing, it's a light-weight and useful GUI for MySQL.
 ![alt text](https://github.com/yspolat/mysql-lookup-editor/blob/master/images/3.png?raw=true)
 ![alt text](https://github.com/yspolat/mysql-lookup-editor/blob/master/images/4.png?raw=true)
 ![alt text](https://github.com/yspolat/mysql-lookup-editor/blob/master/images/5.png?raw=true)
+
+
+<b>Reference: Altuğ Tanaltay/Sabanci University</b>
